@@ -1,0 +1,145 @@
+body {
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+
+button {
+  border: none;
+  padding: 0.5rem 0;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: red;
+}
+
+.non-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
+.none {
+  display: none;
+}
+
+.active {
+  background: rgb(92, 31, 31);
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.5rem;
+}
+
+form button {
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  color: #fff;
+}
+
+.todo-container {
+  margin: 2rem 0;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.primary {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+
+  background: #fff;
+  margin: 1rem 0;
+  resize:none;
+}
+
+.alt {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  background: #fff;
+  margin: 1rem 0;
+}
+
+.edit-btn {
+  background: green;
+  padding: 0.5rem;
+}
+
+.remove-btn {
+  background: red;
+  padding: 0.5rem;
+}
+
+.fa-trash {
+  color: #fff;
+}
+
+.checkbox {
+  margin: 0 2rem;
+  align-self: center;
+}
+
+
+.pagination {
+  margin:auto;
+  width:30%;
+  display:flex;
+  justify-content:center;
+}
+
+.pagination-button {
+  cursor: pointer;
+}
+
+
+
+.pagination-container {
+  margin: auto;
+  display:flex;
+ 
+}
+
+
+
